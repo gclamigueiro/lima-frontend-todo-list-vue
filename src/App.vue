@@ -66,13 +66,6 @@ export default {
       return this.todos.filter(t => t.done).length;
     }
   },
-  watch: {
-    getAmountDone: function(newVal) {
-      if (newVal === this.todos.length) {
-        console.log("All done");
-      }
-    }
-  },
   methods: {
     createTodo() {
       const text = this.newTodo;
@@ -96,6 +89,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css");
 
 body {
   background-color: #EEEEEE;
