@@ -48,7 +48,12 @@ export default {
   display: inline-block;
 }
 
+/* 
+Si se desea que cuando la tarea este realizada cambie la visualidad
+se puede poner en esta clase
+*/
 /*.done {
+
   border-left: 5px solid rgba(104, 236, 104, 0.588);
 }*/
 
