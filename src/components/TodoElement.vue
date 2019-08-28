@@ -1,5 +1,5 @@
 <template>
-  <div class="col-6 col-sm-4 col-md-2">
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
     <div class="todo" :class="{done: todo.done}">
       <div class="checkbox">
         <input :id="position" class="cbx" type="checkbox" v-model="todo.done">
@@ -41,7 +41,7 @@ export default {
   padding: 8px;
   position: relative;
   /*background-color: rgb(238, 232, 232);*/
-  font-size: 1.3em;
+  font-size: 1.1em;
   background-color: #E0EDF4;
   border-left: 5px solid #3EB3F6;
   color: #3E5252;
@@ -116,7 +116,7 @@ export default {
 .check svg path {
   stroke-dasharray: 60;
   stroke-dashoffset: 0;
-   transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .check svg polyline {
   stroke-dasharray: 22;
