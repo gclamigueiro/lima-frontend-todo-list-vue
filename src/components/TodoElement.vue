@@ -2,7 +2,8 @@
   <div class="col-6 col-sm-4 col-md-3 col-lg-2">
     <div class="todo" :class="{done: todo.done}">
       <div class="checkbox">
-        <input :id="position" class="cbx" type="checkbox" v-model="todo.done">
+        <input :id="position" class="cbx" 
+        type="checkbox" v-model="todo.done">
         <label :for="position" class="check">
           <svg width="18px" height="18px" viewBox="0 0 18 18">
             <path

@@ -51,37 +51,34 @@ export default {
     return {
       tasks: [
         { id: 1, text: "Iniciamos el proyecto con el Vue CLI", done: true },
-        { id: 2, text: "Creamos componente ToDo Element", done: false },
-        { id: 3, text: "función data() ", done: false },
+        { id: 2, text: "Llenando la función data() ", done: false },
+        { id: 3, text: "Creamos componente ToDo Element", done: false },
         {
           id: 4,
           text:
-            "Si fuera un proyecto real muchos datos se traerían desde un API",
+            "Vamos a usar la directiva v-for para recorrer las tareas y mostrarlas.",
           done: false
         },
+        { id: 5, text: "Ponemos unos contadores cools :)", done: false },
         {
-          id: 5,
-          text: "Vamos a usar la directiva v-for para recorrer las tareas",
-          done: false
-        },
-        { id: 6, text: "Ponemos unos contadores cools :)", done: false },
-        {
-          id: 7,
+          id: 6,
           text:
-            "Nos fijamos en la reactividad, como Vue se encarga de cambiar la vista",
+            "Nos fijamos en la reactividad, como Vue se encarga de cambiar la vista.",
           done: false
         },
-        { id: 8, text: "propiedades computed, que son?", done: false },
-        { id: 9, text: "insertando nueva tarea. Data Binding", done: false },
-        { id: 10, text: "Manejando eventos", done: false },
-        { id: 11, text: "Enviando datos al componente padre", done: false },
-        { id: 12, text: "Router", done: false },
-        { id: 12, text: "Ciclo de vida de los componentes (Instance Lifecycle Hooks)", done: false },
-
-
+        { id: 7, text: "Propiedades computed, que son?", done: false },
+        { id: 8, text: "Insertando nueva tarea. Data Binding.", done: false },
+        { id: 9, text: "Manejando eventos.", done: false },
+        { id: 10, text: "Enviando datos al componente padre.", done: false },
+        { id: 11, text: "Router", done: false },
+        {
+          id: 12,
+          text: "Ciclo de vida de los componentes (Instance Lifecycle Hooks).",
+          done: false
+        }
       ],
       newTask: "",
-      nextId: 12
+      nextId: 13
     };
   },
   computed: {
